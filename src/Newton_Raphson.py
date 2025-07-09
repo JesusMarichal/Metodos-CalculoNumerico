@@ -16,7 +16,7 @@ def ne(ni, a, b, err, fx, x):
 
     # Validación de convergencia
     if abs(f(xi) * d2f(xi)) / (df(xi))**2 < 1:
-        print("Converge ✔️")
+        print("Converge.")
     else:
         print("Puede que no converja. Revisa el intervalo.")
 

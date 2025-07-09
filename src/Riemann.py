@@ -18,4 +18,5 @@ if __name__ == "__main__":
     b=0
     n=4
     result=riemann_integral(f,a,b,n,x)
-    print(result)
+    print(" ")
+    print(f'El Resultado es: {result}')
